@@ -231,8 +231,6 @@ table {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    border: 2px ridge #fff;
-    border-radius: 10px;
 }
 
 thead {
