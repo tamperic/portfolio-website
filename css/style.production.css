@@ -221,6 +221,7 @@ span {
 
 .main-about p {
     text-align: center;
+    padding: 0 20px;
 }
 
 table {
@@ -382,7 +383,7 @@ h2 {
 /*    Media Queries   */
 
 @media all and (max-width: 500px) {
-    body {
+    body, a {
         font-size: 14px;
     }
     h1 {
@@ -407,6 +408,10 @@ h2 {
         width: 150px;
         height: 150px;
     }
+    .illustration {
+        width: 497px;
+        height: 228px;
+    }
     .project-grid {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
@@ -426,7 +431,7 @@ h2 {
     }
 }
 @media all and (min-width: 500px) and (max-width: 750px) {
-    body {
+    body, a {
         font-size: 16px;
     }
     h1 {
@@ -443,6 +448,10 @@ h2 {
     }
     .main-about {
         text-align: justify;
+    }
+    .illustration {
+        width: 597px;
+        height: 328px;
     }
     .project-grid {
         -ms-grid-columns: 1fr 20px 1fr;
