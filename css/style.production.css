@@ -135,6 +135,7 @@ footer {
     width: 100%;
 }
 
+
 /*   Link   */
 
 a {
@@ -263,17 +264,14 @@ h2 {
     text-align: center;
 }
 
-.project-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin: 40px;
-    text-align: justify;
+.projects-box {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    margin: 40px auto;
 }
 
-.project-grid__item {
+.project-item {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -281,19 +279,54 @@ h2 {
     transition: -webkit-transform 0.2s ease;
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    height: auto;
 }
 
-.project-grid__item:nth-child(1) {
-    -ms-grid-column: 1;
-    grid-column: 1 / 1;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
-    grid-row: 1 / 3;
+.project-item:hover {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    cursor: pointer; 
+    box-shadow: 0 4px 12px rgba(43, 43, 43, 0.4);
 }
-.project-grid__item:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-    cursor: pointer;
+
+
+/*  Chat App */
+
+.img-chat-box {
+    display: grid;
+    flex-direction: column;
+    margin: 40px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center; 
+}
+
+.chat-app-img {
+    height: 500px;
+    width: 250px;
+}
+
+.project-link {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Meet App */
+
+.img-meet-box {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center; 
+}
+
+.meet-app-img {
+    height: 250px;
+    width: 500px;
 }
 
 /*   CONTACT   */

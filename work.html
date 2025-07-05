@@ -38,57 +38,144 @@
     <main>
         <section class="main-work">
             <h1>Work</h1>
-            <div class="project-grid">
-                <div class="project-grid__item">
+            <div class="projects-box">
+
+                <div class="project-item">
                     <h2>Meet App</h2>
-                    <p>
-                        The <strong>Meet App</strong> is a serverless Progressive Web Application (<strong>PWA</strong>) built with React, based on the Test-Driven Development (<strong>TDD</strong>), and using the Google Calendar API to fetch upcoming events.
-                    </p>
-                    <p>
-                        Users will be able:
-                    </p>
+                    <p>The <strong>Meet App</strong> is a serverless Progressive Web Application (<strong>PWA</strong>) built with React, based on the Test-Driven Development (<strong>TDD</strong>), and using the Google Calendar API to fetch upcoming events.</p>
+                    <p><strong>Key Features:</strong></p>
                     <ul>
-                        <li>to search for events,</li>
-                        <li>to search for events,</li>
-                        <li>to filter them by city,</li>
-                        <li>to specify number of events,</li>
-                        <li>to view more or less details about one specific event.</li>
+                        <li>filter events by city,</li>
+                        <li>specify number of events,</li>
+                        <li>show/hide event details,</li>
+                        <li>use the app when offline,</li>
+                        <li>add an app shortcut to the home screen,</li>
+                        <li>display charts visualizing event details.</li>
                     </ul>
-                    <a href="https://github.com/tamperic/meet">See project on GitHub</a>
+                    <div class="img-meet-box">
+                        <img class="meet-app-img" alt="Meet App Image 1" src="../img/Screenshot_MeetApp_1.png"/> 
+                        <img class="meet-app-img" alt="Meet App Image 2" src="../img/Screenshot_MeetApp_2.png"/> 
+                    </div>
+                    <a class="project-link" href="https://github.com/tamperic/meet" rel="noopener noreferrer" target="_blank">See project on GitHub</a> <br/>
+                    <a class="project-link" href="https://tamperic.github.io/meet/" rel="noopener noreferrer" target="_blank">Live demo</a>
                 </div>
-                <div class="project-grid__item">
+
+                <div class="project-item">
                     <h2>Buzzing Chat App</h2>
-                    <p>
-                        The <strong>Buzzing Chat App</strong> is a simple and user-friendly chat application that allows users to easily connect with friends, family, and others. Users can share messages, images, and their location, and personalize their chat experience by choosing one of four given background colors.
-                    </p>
-                    <a href="https://github.com/tamperic/Buzzing-Chat-App">See project on GitHub</a>
+                    <p>The <strong>Buzzing Chat App</strong> is a simple and user-friendly chat application that allows users to easily connect with friends, family, and others. Users can share messages, images, and their location, and personalize their chat experience by choosing one of four given background colors.</p>
+                    <p><strong>Tech Stack:</strong></p>
+                    <ul>
+                        <li>the app is written in <strong>React Native</strong>.</li>
+                        <li>the app is developed using <strong>Expo</strong>.</li>
+                        <li>chat conversations are stored in <strong>Google Firestore Database</strong>, and users will be anonymously authenticated also via <strong>Google Firestore Database</strong>.</li>
+                        <li>chat conversations are also stored on <strong>local storage</strong>.</li>
+                        <li>images are stored in <strong>Firebase Cloud Storage</strong>.</li>
+                        <li>the chat interface and functionality are created using the <strong>Gifted Chat</strong> library.</li>
+                    </ul>
+                    <div class="img-chat-box">
+                        <img class="chat-app-img" alt="Chat App Image 1" src="../img/Screenshot_1.jpeg"/> 
+                        <img class="chat-app-img" alt="Chat App Image 2" src="../img/Screenshot_2.jpeg"/> 
+                        <img class="chat-app-img" alt="Chat App Image 3" src="../img/Screenshot_3.jpeg"/> 
+                        <img class="chat-app-img" alt="Chat App Image 4" src="../img/Screenshot_4.jpeg"/> 
+                    </div>
+                    <a class="project-link" href="https://github.com/tamperic/Buzzing-Chat-App" rel="noopener noreferrer" target="_blank">See project on GitHub</a>
                 </div>
-                <div class="project-grid__item">
-                    <h2>Project 3</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <a href="https://www.github.com">See project on GitHub</a>
+
+                <div class="project-item">
+                    <h2>Pokedex</h2>
+                    <p><strong>Pokedex</strong> is a web app that allows users to find a list of Pokémons, and also to view more details (like name, height, weight, and type) of a particular Pokémon by clicking on that Pokémon.</p>
+                    <p><strong>Tech Stack:</strong></p>
+                    <ul>
+                        <li><strong>JavaScript</strong></li>
+                        <li><strong>HTML</strong></li>
+                        <li><strong>CSS</strong></li>
+                        <li><strong>Bootstrap</strong> for responsive design.</li>
+                        <li><strong>PokéAPI</strong> to fetch data of each Pokémon.</li>
+                        <li>Deployed on <strong>GitHub Pages</strong>.</li>
+                    </ul>
+                    <div class="img-meet-box">
+                        <img class="meet-app-img" alt="Pokedex App Image 1" src="../img/Screenshot_Pokedex_1.png"/> 
+                        <img class="meet-app-img" alt="Pokedex App Image 2" src="../img/Screenshot_Pokedex_2.png"/> 
+                    </div>
+                    <a class="project-link" href="https://github.com/tamperic/pokedex" rel="noopener noreferrer" target="_blank">See project on GitHub</a>
+                    <a class="project-link" href="https://tamperic.github.io/pokedex/" rel="noopener noreferrer" target="_blank">Live demo</a>
                 </div>
-                <div class="project-grid__item">
-                    <h2>Project 4</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <a href="https://www.github.com">See project on GitHub</a>
+
+                <div class="project-item">
+                    <h2>MovieFetcher - Movie API</h2>
+                    <p>This is the backend project for a movie database API built with Node.js, Express, and MongoDB. It allows users to create or delete an account, log in, view list of all movies, get detailed information about movies, directors, genres, as well as to manage their favorite movies.</p>
+                    <p><strong>Tech Stack:</strong></p>
+                    <ul>
+                        <li><strong>Node.js</strong>.</li>
+                        <li><strong>MongoDB with Mongoose</strong> - a NoSQL database used to store user and movie data, with Mongoose providing a schema-based modeling interface.</li>
+                        <li>Middlwares: <strong>Morgan</strong> - a logging middleware that outputs HTTP request details to the console for easy monitoring and debugging, <strong>bodyParser</strong> and <strong>Express.js</strong> - middlewares used to parse incoming request bodies (JSON and form data) so the server can access client input.</li>
+                        <li><strong>Passport.js (Local and JWT Strategies)</strong> - handle user authentication securely.</li>
+                        <li><strong>Bcrypt</strong> - a library used to hash user passwords before storing them in the database.</li>
+                        <li><strong>Express-Validator</strong> - for an user's input validation.</li>
+                        <li><strong>JSDoc</strong> - for a clean documentation from code comments.</li>
+                        <li><strong>Postman</strong> - a tool used to test and visualize HTTP requests and responses during API development.</li>
+                        <li><strong>Heroku</strong> - a cloud platform used to deploy and host the backend server so it's accessible online.</li>
+                    </ul>
+                    <a class="project-link" href="https://github.com/tamperic/movie_api" rel="noopener noreferrer" target="_blank">See project on GitHub</a>
                 </div>
-                <div class="project-grid__item">
-                    <h2>Project 5</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor magna aliqua.
-                    </p>
-                    <a href="https://www.github.com">See project on GitHub</a>
+
+                <div class="project-item">
+                    <h2>MovieFetcher-client React App</h2>
+                    <p><strong>MovieFetcher-client React App</strong> is a client-side single page application (<strong>SPA</strong>) built with React that allows users to explore a wide selection of movies and interact with a RESTful API backend. It uses a component-based architecture built in React to create a dynamic user experience.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Sign Up & Login,</li>
+                        <li>View a list of all available movies,</li>
+                        <li>Possibility to search movies by title, genre or director's name.</li>
+                        <li>See movie details (title, image, description, genre, director, actors, release year, rating, duration) and similar movies by gerne</li>
+                        <li>Add or remove any movie from your personal list of favorites.</li>
+                        <li>Manage user profile - view user details, detele account, log out, view list of favorite movies.</li>
+                    </ul>
+                    <p><strong>Tech Stack:</strong></p>
+                    <ul>
+                        <li><strong>React.js</strong></li>
+                        <li><strong>React-router</strong> - (a state-based) library for routing between multiple views.</li>
+                        <li><strong>React-Bootstrap</strong> - a popular frontend framework that provides a responsive and consistent UI.</li>
+                        <li><strong>Parcel</strong> bundler - a build tool for faster performance during development process</li>
+                        <li><strong>Prop-Types</strong> - a runtime type checking for React props.</li>
+                    </ul>
+                    <a class="project-link" href="https://github.com/tamperic/movieFetcher-client" rel="noopener noreferrer" target="_blank">See project on GitHub</a>
+                    <a class="project-link" href="https://movie-fetcher-client.netlify.app/login" rel="noopener noreferrer" target="_blank">Live demo</a>
+                </div>
+
+                <div class="project-item">
+                    <h2>MovieFetcher-client Angular App</h2>
+                    <p><strong>MovieFetcher-client Angular App</strong>  is the same type of application as MovieFetcher-client React App that also interacts with a RESTful API backend - just a version with Angular and TypeScript. It was used Angular’s component-based architecture along with Angular Material for a responsive user experience.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Sign Up & Login,</li>
+                        <li>View a list of all available movies,</li>
+                        <li>See movie details (title, image, description, genre, director, actors, release year, rating, duration)</li>
+                        <li>Add or remove any movie from your personal list of favorites.</li>
+                        <li>Manage user profile - view user details, detele account, log out, view list of favorite movies.</li>
+                    </ul>
+                    <p><strong>Tech Stack:</strong></p>
+                    <ul>
+                        <li><strong>Angular</strong></li>
+                        <li><strong>Angula Router</strong> used for routing - smooth navigation accross the app.</li>
+                        <li><strong>Angular Material</strong> - a UI component library for modern and responsive design.</li>
+                        <li><strong>Node.js</strong></li>
+                        <li><strong>RxJS</strong> reactive programming for asynchronous operations and API handling.</li>
+                        <li><strong>TypeScript</strong> - a superset of JavaScript for better code quality.</li>
+                        <li><strong>TypeDoc</strong> for converting comments in TypeScript's source code into HTML documentation.</li>
+                    </ul>
+                    <div class="img-meet-box">
+                        <img class="meet-app-img" alt="MovieFetcher Angular App Image 1" src="../img/Screenshot_Angular_1.png"/> 
+                        <img class="meet-app-img" alt="MovieFetcher Angular App Image 2" src="../img/Screenshot_Angular_2.png"/> 
+                    </div>
+                    <a class="project-link" href="https://github.com/tamperic/movieFetcher-Angular-client" rel="noopener noreferrer" target="_blank">See project on GitHub</a>
+                    <!-- <a class="project-link" href="????????" rel="noopener noreferrer" target="_blank">Live demo</a> -->
                 </div>
             </div>
         </section>
     </main>
 
-     <!-- Footer with links to social media profiles -->
+    <!-- Footer with links to social media profiles -->
     <footer class="page-footer">
         <p>You can find me on:</p>
         <div class="social-media">
