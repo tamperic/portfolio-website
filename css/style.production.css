@@ -339,7 +339,7 @@ h2 {
 
 .main-contact {
     text-align: center;
-    margin: 80px auto;
+    margin: 40px auto auto;
     max-width: 600px;
     padding: 20px;
 }
@@ -464,6 +464,11 @@ h2 {
             justify-content: center;
     gap: 20px;
 }
+
+.medium {
+    padding: 3px;
+}
+
 .social-media-item:hover  {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
